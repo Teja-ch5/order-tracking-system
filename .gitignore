@@ -1,0 +1,33 @@
+# PHP
+*.log
+*.cache
+composer.lock
+
+# Environment / Config (keep config.php.example, not actual config)
+src/config.php
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# XAMPP / WAMP
+/nbproject/
+
+# Node (if any frontend build tools used)
+node_modules/
+npm-debug.log
+
+# Uploads (user-uploaded files)
+uploads/
+temp/
+
+# Exported reports
+exports/*.pdf
+exports/*.xlsx
